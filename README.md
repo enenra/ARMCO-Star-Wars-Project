@@ -15,3 +15,6 @@ Within each mods subfolder are several bat files. Open `Update Thumbnail.bat`, `
 To update the thumbnail of the published mod, run `Update Thumbnail.bat`. It will automatically replace the thumbnail on the Workshop page with the thumbnail present in the mod's subfolder.
 
 To upload or update the mod on the Workshop, run `Upload to Workshop.bat`. If you are uploading the first version of the mod, you can instead use `Upload to Workshop (Private).bat` to upload it set to private from the beginning.
+
+# Work folders
+Github specifically ignores all data inside `\[repository]\[mod-subfolder]\OriginalContent\`. Feel free to place any working files (such as FBX, etc.) within those folders. They will not be synchronized.
