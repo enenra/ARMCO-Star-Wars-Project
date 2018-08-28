@@ -1,2 +1,2 @@
-.txt\
-.bat\
+.\exclude.txt\
+.\Build Mod.bat\
