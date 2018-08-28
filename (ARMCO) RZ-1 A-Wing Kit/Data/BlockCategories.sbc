@@ -1,0 +1,75 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   
+ <CategoryClasses>
+ 
+ <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId>RZ1awingkit</SubtypeId>
+      </Id>
+      <DisplayName>RZ-1 A-wing Kit</DisplayName>
+      <Name>RZ-1 A-wing Kit</Name>
+	  <IsShipCategory>false</IsShipCategory> <!-- shows in ship blocks -->
+      <IsBlockCategory>true</IsBlockCategory>
+      <ItemIds>
+	  <string>awingengine</string>
+      <string>rebelbadge</string>
+      <string>blinkybadge</string>
+      <string>armcobadge</string>
+      <string>awingleftwingtop</string>
+      <string>awingleftwingbottom</string>
+      <string>rz1blaster</string>
+      <string>acock</string>
+      <string>awingrightwing</string>
+	  <string>awingrightwingbottom</string>
+	  <string>short2x4x1</string>
+      </ItemIds>
+    </Category>
+ 
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_LargeBlocks</DisplayName>
+      <Name>LargeBlocks</Name>
+      <ItemIds>
+	  <string>rz1blaster</string>
+	  <string>short2x4x1</string>
+	 
+	</ItemIds>
+ 
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_ShipWeaponsTools</DisplayName>
+      <Name>ShipWeaponsTools</Name>
+      <SearchBlocks>false</SearchBlocks>
+      <IsShipCategory>true</IsShipCategory>
+      <IsBlockCategory>false</IsBlockCategory>
+      <IsToolCategory>true</IsToolCategory>
+      <ItemIds>
+          <string>rz1blaster</string>
+		  <string>short2x4x1</string>
+		  
+		
+      </ItemIds>
+    </Category>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_ShipWeaponsTools</DisplayName>
+      <Name>WeaponsTools</Name>
+      <ItemIds>
+          <string>rz1blaster</string>
+		  <string>short2x4x1</string>
+		
+      </ItemIds>
+    </Category>
+    
+  </CategoryClasses>
+</Definitions>

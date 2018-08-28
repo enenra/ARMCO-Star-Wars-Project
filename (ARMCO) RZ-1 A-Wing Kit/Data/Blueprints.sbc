@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+    
+  
+   
+   <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>concussion_missile</SubtypeId>
+      </Id>
+      <DisplayName>concussion_missile</DisplayName>
+      <Icon>Textures\concussion_torp.dds</Icon>
+       <Prerequisites>
+        <Item Amount="55" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="7" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="0.2" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="0.1" TypeId="Ingot" SubtypeId="Uranium" />
+        <Item Amount="0.04" TypeId="Ingot" SubtypeId="Platinum" />
+        <Item Amount="1.2" TypeId="Ingot" SubtypeId="Magnesium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="concussion_missile" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+   
+   <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>rz1blaster</SubtypeId>
+      </Id>
+      <DisplayName>RG-9 Laser Cannon</DisplayName>
+      <Icon>Textures\rgblaster.dds</Icon>
+      <Prerequisites>
+        <Item Amount="40" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="3.0" TypeId="Ingot" SubtypeId="Magnesium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="rz1blaster" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+   
+
+   
+  </Blueprints>
+</Definitions>

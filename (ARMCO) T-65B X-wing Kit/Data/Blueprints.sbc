@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Blueprints>
+    
+   <!-- <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>Spiker_Turret</SubtypeId>
+       </Id>
+      <DisplayName>Spiker Turret</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Ammo_Box.dds</Icon>
+      <Prerequisites>
+        <Item Amount="40" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="3.0" TypeId="Ingot" SubtypeId="Magnesium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="NATO_25x184mm" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint> -->
+	
+	<Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>concussion_missile-xwing</SubtypeId>
+      </Id>
+      <DisplayName>concussion_missile</DisplayName>
+      <Icon>Textures\concussion_torp.dds</Icon>
+       <Prerequisites>
+        <Item Amount="55" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="7" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="0.2" TypeId="Ingot" SubtypeId="Silicon" />
+        <Item Amount="0.1" TypeId="Ingot" SubtypeId="Uranium" />
+        <Item Amount="0.04" TypeId="Ingot" SubtypeId="Platinum" />
+        <Item Amount="1.2" TypeId="Ingot" SubtypeId="Magnesium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="concussion_missile" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+   
+   <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>t65blaster</SubtypeId>
+      </Id>
+      <DisplayName>T65-B Laser Cannon</DisplayName>
+      <Icon>Textures\rgblaster.dds</Icon>
+      <Prerequisites>
+        <Item Amount="40" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="5" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="3.0" TypeId="Ingot" SubtypeId="Magnesium" />
+      </Prerequisites>
+      <Result Amount="1" TypeId="AmmoMagazine" SubtypeId="t65blaster" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint>
+   
+ <!--  <Blueprint>
+      <Id>
+        <TypeId>BlueprintDefinition</TypeId>
+        <SubtypeId>plasma_ammo</SubtypeId>
+      </Id>
+      <DisplayName>Globber ammo</DisplayName>
+      <Icon>Textures\Models\cannonball.dds</Icon>
+      <Prerequisites>
+        <Item Amount="75" TypeId="Ingot" SubtypeId="Iron" />
+        <Item Amount="20" TypeId="Ingot" SubtypeId="Nickel" />
+        <Item Amount="50" TypeId="Ingot" SubtypeId="Stone" />
+        
+      </Prerequisites>
+      <Result Amount="3" TypeId="AmmoMagazine" SubtypeId="plasma_ammo" />
+      <BaseProductionTimeInSeconds>10</BaseProductionTimeInSeconds>
+    </Blueprint> -->
+   
+  </Blueprints>
+</Definitions>

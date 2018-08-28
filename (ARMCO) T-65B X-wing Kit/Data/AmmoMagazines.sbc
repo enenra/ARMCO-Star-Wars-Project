@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <AmmoMagazines>
+  
+  <!--<AmmoMagazine>
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>Spiker_Turret</SubtypeId>
+      </Id>
+      <DisplayName>Spiker_Turret</DisplayName>
+      <Icon>Textures\GUI\Icons\ammo\Ammo_Box.dds</Icon>
+      <Size>
+        <X>0.25</X>
+        <Y>0.2</Y>
+        <Z>0.2</Z>
+      </Size>
+      <Mass>35</Mass>
+      <Volume>16</Volume>
+      <Model>Models\Weapons\Ammo_Box.mwm</Model>
+      <PhysicalMaterial>Ammo</PhysicalMaterial>
+      <Capacity>140</Capacity>
+      <AmmoDefinitionId Subtype="Spiker_Turret" />
+    </AmmoMagazine> -->
+	
+	    <AmmoMagazine>
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>concussion_missile</SubtypeId>
+      </Id>
+      <DisplayName>Concussion Missile</DisplayName>
+      <Icon>Textures\concussion_torp.dds</Icon>
+      <Size>
+        <X>1.2</X>
+        <Y>0.2</Y>
+        <Z>0.2</Z>
+      </Size>
+      <Mass>45</Mass>
+      <Volume>60</Volume>
+      <Model>Models\concussion_missile_Small.mwm</Model>
+      <PhysicalMaterial>Ammo</PhysicalMaterial>
+      <Capacity>1</Capacity>
+      <AmmoDefinitionId Subtype="concussion_missile" />
+    </AmmoMagazine>
+	
+	 <AmmoMagazine>
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>t65blaster</SubtypeId>
+      </Id>
+      <DisplayName>Laser Cannon Ammo</DisplayName>
+      <Icon>Textures\rgblaster.dds</Icon>
+      <Size>
+        <X>0.25</X>
+        <Y>0.2</Y>
+        <Z>0.2</Z>
+      </Size>
+      <Mass>35</Mass>
+      <Volume>16</Volume>
+      <Model>Models\RG-9ammo_Small.mwm</Model>
+      <PhysicalMaterial>Ammo</PhysicalMaterial>
+      <Capacity>140</Capacity>
+      <AmmoDefinitionId Subtype="t65blaster" />
+    </AmmoMagazine>
+	
+<!--	<AmmoMagazine>
+      <Id>
+        <TypeId>AmmoMagazine</TypeId>
+        <SubtypeId>plasma_ammo</SubtypeId>
+      </Id>
+      <DisplayName>Globber ammo</DisplayName>
+      <Icon>Textures\Models\cannonball.dds</Icon>
+      <Size>
+        <X>1.2</X>
+        <Y>0.2</Y>
+        <Z>0.2</Z>
+      </Size>
+      <Mass>45</Mass>
+      <Volume>60</Volume>
+      <Model>Models\Fixed_Weapons\plasma_ammo_Small.mwm</Model>
+      <PhysicalMaterial>Ammo</PhysicalMaterial>
+      <Capacity>1</Capacity>
+      <AmmoDefinitionId Subtype="plasma_ammo" />
+    </AmmoMagazine> -->
+	
+  </AmmoMagazines>
+</Definitions>

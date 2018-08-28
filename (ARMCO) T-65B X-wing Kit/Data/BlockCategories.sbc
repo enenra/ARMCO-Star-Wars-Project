@@ -1,0 +1,84 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   
+ <CategoryClasses>
+ 
+ <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId>t65xwing</SubtypeId>
+      </Id>
+      <DisplayName>T-65B X-wing Kit</DisplayName>
+      <Name>T-65B X-wing Kit</Name>
+	  <IsShipCategory>true</IsShipCategory> <!-- shows in ship blocks -->
+      <IsBlockCategory>true</IsBlockCategory>
+      <ItemIds>
+	  <string>t65cockwing_thrusterfront</string>
+      <string>t65cockwing_thrusterback</string>
+      <string>astro_remote</string>
+      <string>t65cock</string>
+      <string>t65wing_stand_R</string>
+      <string>t65wing_stand_L</string>
+      <string>t65blasterR</string>
+	  <string>t65blasterL</string>
+      <string>t65tube_left</string>
+      <string>t65tube_right</string>
+	  <string>t65blasterSR</string>
+	  <string>t65wing_stand_blaster</string>
+	</ItemIds>
+    </Category>
+ 
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_LargeBlocks</DisplayName>
+      <Name>LargeBlocks</Name>
+      <ItemIds>
+	  <!--<string>t65blasterL</string>-->
+	  <string>t65blasterSR</string>
+	  <string>t65wing_stand_blaster</string>
+	 <string>t65tube_right</string>
+		<string>t65tube_left</string>
+	 
+	</ItemIds>
+ 
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_ShipWeaponsTools</DisplayName>
+      <Name>ShipWeaponsTools</Name>
+      <SearchBlocks>false</SearchBlocks>
+      <IsShipCategory>true</IsShipCategory>
+      <IsBlockCategory>false</IsBlockCategory>
+      <IsToolCategory>true</IsToolCategory>
+      <ItemIds>
+          <string>t65blasterSR</string>
+		  <string>t65wing_stand_blaster</string>
+		  <string>t65tube_right</string>
+		<string>t65tube_left</string>
+		  
+		
+      </ItemIds>
+    </Category>
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId/>
+      </Id>
+      <DisplayName>DisplayName_Category_ShipWeaponsTools</DisplayName>
+      <Name>WeaponsTools</Name>
+      <ItemIds>
+          <string>t65blasterSR</string>
+		  <string>t65wing_stand_blaster</string>
+		  <string>t65tube_right</string>
+		<string>t65tube_left</string>
+		  
+		
+      </ItemIds>
+    </Category>
+    
+  </CategoryClasses>
+</Definitions>

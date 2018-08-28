@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Weapons>
+  
+   <Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>rz1blaster</SubtypeId>
+      </Id>
+      <ProjectileAmmoData RateOfFire="600" ShootSoundName="awingblaster" ShotsInBurst="180" />
+      <ReleaseTimeAfterFire>204</ReleaseTimeAfterFire>
+      <DeviateShotAngle>0.4</DeviateShotAngle>
+      <MuzzleFlashLifeSpan>40</MuzzleFlashLifeSpan>
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="rz1blaster" />
+      </AmmoMagazines>
+      <ReloadTime>6000</ReloadTime>
+	 </Weapon> 
+	 
+	 <Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>concussion_missile</SubtypeId>
+      </Id>
+      <MissileAmmoData RateOfFire="120" ShootSoundName="concussion_missile" ShotsInBurst="0" />
+      <DeviateShotAngle>0.1</DeviateShotAngle>
+      <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+      <AmmoMagazines>
+       <AmmoMagazine Subtype="concussion_missile" />
+      </AmmoMagazines>
+      <ReloadTime>3000</ReloadTime>
+    </Weapon>
+    
+
+	 
+  </Weapons>
+</Definitions>
