@@ -18,3 +18,6 @@ To upload or update the mod on the Workshop, run `Upload to Workshop.bat`. If yo
 
 # Work folders
 Github specifically ignores all data inside `\[repository]\[mod-subfolder]\OriginalContent\`. Feel free to place any working files (such as FBX, etc.) within those folders. They will not be synchronized.
+
+# Updating
+If any changes are made to any file on github, simply open Github Desktop and click the "Fetch Origin"-button, and then click again for "Pull origin". That will synchronize any changes to your local folder and you will be able to test the latest changes without having to update a workshop mod.
